@@ -1,0 +1,15 @@
+name: ExpBottle
+version: 1.0.0
+main: top.lordgamer.expbottle.ExpBottlePlugin
+api-version: '1.19'
+author: LordGamer
+description: Custom exp bottles that give exact levels on use.
+commands:
+  expbottle:
+    description: Manage exp bottles
+    usage: /expbottle give <player> <levels> [amount]
+    aliases: [xpbottle, expb]
+permissions:
+  expbottle.give:
+    description: Allows giving custom exp bottles
+    default: op
